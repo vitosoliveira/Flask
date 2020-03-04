@@ -8,5 +8,3 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return '<h1> Primeiro Flask de idiota </h1>'
-def bom_dia():
-    return "<title> Vem cambada </title>"
